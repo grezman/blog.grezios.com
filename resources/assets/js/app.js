@@ -9,9 +9,17 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-import Buefy from 'Buefy';
+import Buefy from 'buefy';
 
-Vue.use(Buefy);
+Vue.use(Buefy); 
+
+
+var app = new Vue({
+    el:'#app',
+    data:{}
+    
+    
+});
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
